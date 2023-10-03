@@ -4,7 +4,7 @@ a. Liệt kê các bài viết về các bài hát thuộc thể loại Nhạc
 SELECT baiviet.tieude, baiviet.ten_bhat, theloai.ten_tloai
 FROM baiviet INNER JOIN theloai on baiviet.ma_tloai = theloai.ma_tloai 
 WHERE ten_tloai = 'Nhạc trữ tình'
-/*
+
 /*
 b. Liệt kê các bài viết của tác giả “Nhacvietplus”
 */
